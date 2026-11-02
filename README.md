@@ -2,6 +2,11 @@
 
 An autonomous multi-agent research intelligence system powered by **LangChain**, **Google Gemini**, **Tavily Web Search**, and **Trafilatura**.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://langchain-multiagent-research-system-29ws.onrender.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://langchain-multiagent-research-system-29ws.onrender.com)
+
+🌐 **Live Application:** [https://langchain-multiagent-research-system-29ws.onrender.com](https://langchain-multiagent-research-system-29ws.onrender.com)
+
 ---
 
 ## 🏗️ Architecture Overview
@@ -35,7 +40,15 @@ The pipeline orchestrates 4 specialized agents working in sequence:
 
 ## 🚀 Quick Start
 
-### 1. Configure Environment Variables
+### 🌐 Try the Live Cloud Demo
+Access the live deployed application directly in your browser:
+👉 **[https://langchain-multiagent-research-system-29ws.onrender.com](https://langchain-multiagent-research-system-29ws.onrender.com)**
+
+---
+
+### 💻 Local Setup
+
+#### 1. Configure Environment Variables
 Create or verify your `.env` file in the project root:
 
 ```env
@@ -43,12 +56,12 @@ GEMINI_API_KEY=your_gemini_api_key_here
 TAVILY_API_KEY=your_tavily_api_key_here
 ```
 
-### 2. Install Dependencies
+#### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Run the Streamlit Web UI
+#### 3. Run the Streamlit Web UI
 Launch the interactive dashboard:
 
 ```bash
@@ -56,7 +69,7 @@ streamlit run app.py
 ```
 *(Or on Windows, simply double-click `run_app.bat`)*
 
-### 4. Run via Terminal / CLI
+#### 4. Run via Terminal / CLI
 To execute the pipeline directly in the console:
 
 ```bash
